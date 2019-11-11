@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Whiplash</title>
+    <link href="https://fonts.googleapis.com/css?family=Poller+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
     <style media="screen">
 .title {
   text-align:center;
 }
 .right {
-  text-align:right;
+  float: right;
 }
 .image-right {
   float:right;
@@ -21,14 +24,28 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+#paragraph {
+  font-family: 'Poller One', cursive;font-size:25px;color:white
+}
+#names {
+font-family: 'Russo One', sans-serif;font-size:23px;color:white;
+}
+#title {
+  font-family: 'Monoton', cursive;font-size:50px;color:white
+}
+body {
+  background-image: url('img/stage-2.jpg');
+  background-size: cover;
+
+}
     </style>
   </head>
   <body>
-<h1 class="title">Whiplash</h1>
-<img src="img/poster.jpg" alt="poster" class="image-center">
+<h1 class="title" id="title">Whiplash</h1>
+<img src="img/poster.jpg" alt="poster" class="image-center" height="759" width="512">
 <br>
 <br>
-<p class="title">An aspiring Musician Andrew (Miles Teller) enrolls in a new music school, Shaffer Conservatory.
+<p class="title" id="paragraph">An aspiring Musician Andrew (Miles Teller) enrolls in a new music school, Shaffer Conservatory.
   <br>
   When practicing, he is approached by the conductor of the highest class in the school, Terence Fletcher (J.K Simmons).
   <br>
@@ -41,7 +58,10 @@ h2 {
 <br>
 <img src="img/Miles.jpg" alt="Miles" height="500" width="700"> <img src="img/jk.jpg" alt="J.K Simmons" height="500" width="700" class="image-right">
 <br>
-<h2>Miles Teller</h2><h2 style="color:white;">_____________________________________________________________________________________________________________________________________</h2> <h2>J.K Simmons</h2>
+<br>
+<h2 id="names">Miles Teller</h2><h2 id="names" class="right">J.K Simmons</h2>
+<br>
+<br>
 <br>
 <br>
   </body>
